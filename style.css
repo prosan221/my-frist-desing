@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Merriweather', serif;
 
 }
@@ -16,4 +17,36 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    height: 500px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-bottom{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+
+
+.part-2{
+    height: 500px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  
+}
+.bottom{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
 }
