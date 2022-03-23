@@ -50,3 +50,30 @@ h1{
     font-weight: 700;
     border-radius: 5px;
 }
+.main-area{
+    box-shadow: 10px 10px 40px gray;
+    box-sizing: 500px;
+    height: 70%; 
+    background-color: white;
+    border-radius: 10px;
+}
+.Experiences-area{
+    height: 500px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fast-desing{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#last-desing{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue, gray);
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
+}
